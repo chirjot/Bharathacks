@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context="com.example.tushar.ambulance.Checkuser">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+<TextView
+    android:layout_width="match_parent"
+    android:padding="10dp"
+
+    android:layout_weight="1"
+    android:layout_height="wrap_content"
+    android:text="Username"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/txtuser"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+    </LinearLayout>
+   <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+
+        android:layout_weight="1"
+        android:layout_height="wrap_content"
+        android:text="Lattitute"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+        android:layout_weight="1"
+        android:id="@+id/txtlat"
+        android:layout_height="wrap_content"
+        android:hint="latitute"/>
+</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Longitute"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/txtlong"
+            android:layout_height="wrap_content"
+            android:hint="Longitute"/>
+    </LinearLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/bynmap"
+        android:text="Get On Map"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="logout"
+        android:id="@+id/logout"
+        android:visibility="gone"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:padding="10dp"
+
+
+        android:layout_height="wrap_content"
+        android:text="My Location"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Username"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/txtamb"
+            android:layout_height="wrap_content"
+            android:hint="Username"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Lattitute"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/txtamblat"
+            android:layout_height="wrap_content"
+            android:hint="latitute"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="Longitute"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:padding="10dp"
+            android:layout_weight="1"
+            android:id="@+id/txtamblon"
+            android:layout_height="wrap_content"
+            android:hint="Longitute"/>
+    </LinearLayout>
+
+
+</LinearLayout>
